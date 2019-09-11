@@ -22,9 +22,9 @@ html, body {
 
 body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
-	text-align: left; /* Alignment of the text */
-	color: black; /* Main text color */
-	background: white; /* Main text background color */
+	text-align: center; /* Alignment of the text */
+	color: orange; /* Main text color */
+	background: black; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
 
@@ -36,7 +36,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
 	text-align: left;
-	color: white;
+	color: cyan;
 }
 
 h2 {		     /* This styles the headers within the page */
