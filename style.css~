@@ -41,7 +41,6 @@ h1 {		     /* This styles the header at the top of the page */
 
 h2 {		     /* This styles the headers within the page */
 	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
-	font-size: 500%
 	padding: 0;
 	margin: 0;
 	color:  #828282 ;
@@ -115,5 +114,5 @@ div.section {
 }
 
 .active {
-  background-color: #4CAF50; /* Add an active/current color */
+  background-color: #69CBED; /* Add an active/current color */
 }
