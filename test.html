@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+  <a  href="index.html"><i class="fa fa-home"></i> Home</a>
+  <a href="https://github.com/RustyDotson">
+    <i class="fa fa-github"></i> Github</a>
+  <a href="https://soundcloud.com/rustyraydot">
+    <i class="fa fa-soundcloud"></i> Music</a>
+  <a class="active" href="#"><i class="fa fa-paint-brush"></i> Artwork</a>
+  <a href="Dotson_resume.pdf"><i class="fa fa-file"></i> Resume</a>
+</div>
+
+
+<head>
+        <title>Rusty Dotson</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<script src="poem.js"></script>
+</head>
+
+<body>
+    <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 14</div>
+    <img src="artwork/0.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 14</div>
+    <img src="artwork/1.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 14</div>
+    <img src="artwork/2.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 14</div>
+    <img src="artwork/3.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 14</div>
+    <img src="artwork/4.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 14</div>
+    <img src="artwork/5.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 14</div>
+    <img src="artwork/6.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 14</div>
+    <img src="artwork/7.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 14</div>
+    <img src="artwork/8.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 14</div>
+    <img src="artwork/9.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 14</div>
+    <img src="artwork/10.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 14</div>
+    <img src="artwork/11.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 14</div>
+    <img src="artwork/12.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">14 / 14</div>
+    <img src="artwork/13.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
+  <span class="dot" onclick="currentSlide(15)"></span>
+  <span class="dot" onclick="currentSlide(16)"></span>
+  </div>
+</body>
+
+<script>
+  var slideIndex = 1;
+  var bar = convert(4, 16)
+  showSlides(slideIndex, bar);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function convert(beats, size){
+    var bar = [];
+
+    var counter = 0;
+    for (i = 0; i < size; i++){
+        counter += beats;
+        if (counter >= size){
+            counter -= size;
+            bar.push(1);
+        } else{
+            bar.push(0);
+        }
+    }
+    return bar;
+  }
+
+  function showSlides(n, bar) {
+    var i;
+    var a;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" dotActive", "");
+    }
+    for (a = 0; a < bar.length; a++){
+      if (bar[a] == 1){
+        dots[a].className += " dotActive";
+      }
+    }
+  }
+</script>
+</html>
