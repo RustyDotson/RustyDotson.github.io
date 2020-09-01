@@ -49,6 +49,7 @@
 <script>
   var slideIndex = 1;
   var bar = euclidean(4, 16)
+  var myWorker = new Worker("worker.js")
   showSlides(slideIndex, bar);
 
   // Next/previous controls
@@ -78,6 +79,20 @@
     return bar;
   }
 
+  function play(dots){
+    var audio = new Audio("hihat_opened01.ogg");
+    var i;
+    while (true){
+      for (i = 0; i < 17; i++){
+        if (dots[i].className == " dotActive"){
+          play(audio);
+          console.log("hi");
+        }
+        i = 0;
+      }
+    }
+  }
+
   function showSlides(n, bar) {
     var i;
     var a;
@@ -88,6 +103,7 @@
         dots[a].className += " dotActive";
       }
     }
+    myWorker.postMessage(dots);
   }
 </script>
 </html>
