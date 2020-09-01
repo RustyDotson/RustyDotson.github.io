@@ -22,7 +22,7 @@ html, body {
 
 body{
 	font: 130%/1.3 TrebuchetMS,Calibri,sans-serif;  /* Default fonts */
-	text-align: left; /* Alignment of the text */
+	text-align: center; /* Alignment of the text */
 	color:  #b6b6b6 ; /* Main text color */
 	background:   #2c2c2c  ; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
@@ -35,7 +35,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	color:  #969696 ;
 }
 
@@ -43,6 +43,7 @@ h2 {		     /* This styles the headers within the page */
 	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
+	text-align: center;
 	color:  #828282 ;
 }
 
@@ -80,6 +81,43 @@ div.section {
 	background: white;
 	color: black;
 }
+
+
+/* This alters the appearance of the box that covers section titles throughout the webpage.*/
+.box {
+	width: 100%;
+	border: 15px;
+	padding: 22px;
+}
+
+.outline{
+	border: 2px solid black;
+	outline: #ffccfe solid 10px;
+	outline-width: 10%;
+	margin: 30px;
+	margin-left: 26%;
+	margin-right: 26%;
+	padding: 10px;
+	text-align: center;
+}
+
+.paraOutline{
+
+	
+	outline-width: 10%;
+	margin: 30px;
+	margin-left: 26%;
+	margin-right: 26%;
+	padding: 10px;
+	text-align: left;
+}
+
+.grad{
+	height: 100px;
+	background-color: blue;
+	background-image: linear-gradient(to right, #69cbed, #ffccfe)
+}
+
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
 .minileft {
