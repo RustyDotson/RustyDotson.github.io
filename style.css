@@ -84,6 +84,12 @@ div.section {
 	color: black;
 }
 
+/* This alters the appearance of the div with id="longtext."
+   Used in the artwork description section. */
+#longtext {
+	font-size: 15px; 
+}
+
 
 /* This alters the appearance of the box that covers section titles throughout the webpage.*/
 .box {
