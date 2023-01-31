@@ -128,7 +128,9 @@ div.section {
 	height: 200px;
 	text-align: center;
 	background-color: #555;
-	background: url('artwork/5.jpg');
+	background-image: url('logos/snow.jpg');
+	background-size: 100%;
+	background-position: 50% 50%;
 	}
 
 .gradient {
@@ -152,7 +154,7 @@ div.section {
 /*Following code is used for the toolbar interface at the top of each page.*/
 .icon-bar {
   width: 100%; /* Full-width */
-  background-color: #555; /* Dark-grey background */
+  background-color: rgb(0, 0, 0, 0.0); /* #555; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 
@@ -166,34 +168,49 @@ div.section {
   font-size: 36px; /* Increased font size */
 }
 
-.icon-bar a:hover {
-  background-color: #e1ce67; /* Add a hover color */
+.icon-bar a:hover {/* Add a hover color */
+  color: rgb(0, 0, 0, 0.0);
+  opacity: .5;
   /*background-image: url(artwork/10_enhanced.jpg); */
-  background-position: center;
 }
 
-.active {
-  background-color: #7ec06f; /* Add an active/current color */
+.active { 
+/* Add an active/current color */
+  color: #7ec06f;
+  background-color: rgb(50, 50, 50, .35);
 }
 
 .homeHover:hover {
   background-image: url(artwork/10_enhanced.jpg);
 }
 
-.githubHover:hover {
-  background-image: url(logos/octocat.png);
+.scHover:hover {
+  background-image: url(logos/Record.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
   background-size: 100%;
-  color: rgb(0, 0, 0, 0.0);
+  background-position: center;
 }
 
-.header{
-  position: fixed;
-  width: 100%;
-  padding: 0px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
+.githubHover:hover {
+  background-image: url(logos/octotrans.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 75%;
+  background-position: 50% 22%;
+  animation-name: bop;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.artHover:hover {
+  background-image: url(artwork/01_enhanced.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 15%;
+  animation-name: shiftDown;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
 .footer{
@@ -304,6 +321,26 @@ div.section {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+@keyframes shiftDown {
+  0% {background-position: 50% 15%;}
+  50% {background-position: 50% 100%;}
+  100% {background-position: 50% 15%;}
+}
+
+@keyframes bop {
+  0% {background-position: 50% 19%;}
+  50% {background-position: 50% 25%;}
+  100% {background-position: 50% 19%;}
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0);}	
+  25% {transform: rotate(5deg);}
+  50% {transform: rotate(-10deg);}
+  75% {transform: rotate(10deg);}
+  100% {transform: rotate(-5deg);}
 }
 
 @-webkit-keyframes fade {
