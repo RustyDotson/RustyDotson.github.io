@@ -14,7 +14,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 
 
-/*COLOR COMBINATION: #7ec06f, #e1ce67
 
 /* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
 html, body {
@@ -92,10 +91,17 @@ div.section {
 
 
 /* This alters the appearance of the box that covers section titles throughout the webpage.*/
+
+.center {
+	text-align: center;
+}
+
 .box {
 	width: 100%;
 	border: 15px;
 	padding: 22px;
+	vertical-align: center;
+	text-align: center;
 }
 
 .outline{
@@ -119,10 +125,11 @@ div.section {
 }
 
 .imageBackground{
-	height: 100px;
+	height: 200px;
+	text-align: center;
 	background-color: #555;
 	background: url('artwork/5.jpg');
-}
+	}
 
 .gradient {
     background: linear-gradient(-25deg, #7ec06f, #555, #7ec06f, #555);
@@ -161,10 +168,32 @@ div.section {
 
 .icon-bar a:hover {
   background-color: #e1ce67; /* Add a hover color */
+  /*background-image: url(artwork/10_enhanced.jpg); */
+  background-position: center;
 }
 
 .active {
   background-color: #7ec06f; /* Add an active/current color */
+}
+
+.homeHover:hover {
+  background-image: url(artwork/10_enhanced.jpg);
+}
+
+.githubHover:hover {
+  background-image: url(logos/octocat.png);
+  background-size: 100%;
+  color: rgb(0, 0, 0, 0.0);
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
 
 .footer{
