@@ -106,7 +106,7 @@ div.section {
 
 .outline{
 	border: 2px solid black;
-	outline: #6b6b6b solid 10px;
+	outline: white solid 10px;
 	outline-width: 10%;
 	margin: 30px;
 	margin-left: 26%;
@@ -125,7 +125,7 @@ div.section {
 }
 
 .imageBackground{
-	height: 200px;
+	height: 300px;
 	text-align: center;
 	background-color: #555;
 	background-image: url('logos/snow.JPG');
@@ -229,8 +229,8 @@ div.section {
   bottom: 0;
   width: 100%;
   height: 5%;
-  background-color: #7ec06f;
-  color: white;
+  background-color: white;
+  color: grey;
 }
 
 /*End of toolbar */
