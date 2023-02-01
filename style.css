@@ -175,7 +175,7 @@ div.section {
 
 .icon-bar a:hover {/* Add a hover color */
   
-  opacity: .25;
+  opacity: .90;
   border: 3px solid white;
   /*background-image: url(artwork/10_enhanced.jpg); */
 }
@@ -188,6 +188,22 @@ div.section {
 
 .homeHover:hover {
   background-image: url(artwork/10_enhanced.jpg);
+}
+
+.scHover {
+  background-image: url(logos/Record.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 0%;
+  background-position: center;
+}
+
+.githubHover {
+  background-image: url(logos/octotrans.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 0%;
+  background-position: center;
 }
 
 .scHover:hover {
@@ -211,6 +227,14 @@ div.section {
   animation-name: catBop;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+}
+
+.artHover {
+  background-image: url(logos/01_enhanced.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 0%;
+  background-position: center;
 }
 
 .artHover:hover {
