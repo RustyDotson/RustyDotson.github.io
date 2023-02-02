@@ -397,4 +397,10 @@ div.section {
 	}
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .imageBackground {
+    background-attachment: scroll;
+  }
+}
+
 /*end of slideshow section.*/
