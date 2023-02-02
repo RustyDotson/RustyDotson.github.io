@@ -131,7 +131,7 @@ div.section {
 	background-image: url('logos/snow.JPG');
 	background-size: 100%;
 	background-position: 50% 100%;
-	
+	opacity: 1;
 	min-height: 200px;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
