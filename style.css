@@ -48,6 +48,12 @@ h2 {		     /* This styles the headers within the page */
 	color:  #2b2b2b ;
 }
 
+h2 span {
+	background-color: rgb(100, 100, 100, .5);
+	width: 100%;
+	color: white;
+}
+
 
 /* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
 div.section {
@@ -99,7 +105,7 @@ div.section {
 .box {
 	width: 100%;
 	border: 15px;
-	padding: 22px;
+	padding: 10%;
 	vertical-align: center;
 	text-align: center;
 }
@@ -128,7 +134,7 @@ div.section {
 	height: 300px;
 	text-align: center;
 	background-color: #555;
-	background-image: url('logos/snow.JPG');
+	background-image: url('logos/snowSmall.jpg');
 	background-size: 100%;
 	background-position: 50% 100%;
 	opacity: 1;
@@ -158,8 +164,8 @@ div.section {
 /*Following code is used for the toolbar interface at the top of each page.*/
 .icon-bar {
   width: 100%; /* Full-width */
-  background-color: rgb(0, 0, 0, 0.0); /* #555; /* Dark-grey background */
-  overflow: auto; /* Overflow due to float */
+  background-color: rgb(25, 25, 25, 0.50); /* #555; /* Dark-grey background */
+  /*overflow: auto; /* Overflow due to float */
 }
 
 .icon-bar a {
@@ -177,13 +183,12 @@ div.section {
   color: rgb(0, 0, 0, 0);
   opacity: .50;
   border: 3px solid white;
-  /*background-image: url(artwork/10_enhanced.jpg); */
 }
 
 .active { 
 /* Add an active/current color */
   color: #7ec06f;
-  background-color: rgb(50, 50, 50, .35);
+  background-color: rgb(50, 50, 50, .50);
 }
 
 .homeHover:hover {
