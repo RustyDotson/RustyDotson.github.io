@@ -21,4 +21,14 @@
 
 .column img:hover {
   box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.95), 0 6px 20px 0 rgba(255, 255, 255, 0.95);
+  animation-name:dynamicGlow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes dynamicGlow {
+	0%   {box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.95), 0 6px 20px 0 rgba(255, 255, 255, 0.95);}
+	50%  {box-shadow: 0 25px 100px 0 rgba(100, 100, 255, 0.95), 0 25px 100px 0 rgba(255, 255, 255, 0.95);}
+	100% {box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.95), 0 6px 20px 0 rgba(255, 255, 255, 0.95);}
 }
