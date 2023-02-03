@@ -16,11 +16,10 @@
   margin: 8px;
   width: 100%;
   border: white solid;
-  transition: 0.3s ease;
 }
 
 .column img:hover {
-  box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.95), 0 6px 20px 0 rgba(255, 255, 255, 0.95);
+  box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.50), 0 6px 20px 0 rgba(255, 255, 255, 0.50);
   animation-name:dynamicGlow;
   animation-duration: 10s;
   animation-iteration-count: infinite;
