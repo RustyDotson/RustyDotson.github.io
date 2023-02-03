@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  float: middle;
+  width: 24vw;
+  padding: 0 4px;
+}
+
+.column img {
+  margin: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border: white solid;
+}
