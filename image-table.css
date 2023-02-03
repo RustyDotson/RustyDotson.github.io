@@ -7,13 +7,18 @@
 /* Create two equal columns that sits next to each other */
 .column {
   float: middle;
+  text-align: center; 
   width: 24vw;
   padding: 0 4px;
 }
 
 .column img {
   margin: 8px;
-  vertical-align: middle;
   width: 100%;
   border: white solid;
+  transition: 0.3s ease;
+}
+
+.column img:hover {
+  box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.95), 0 6px 20px 0 rgba(255, 255, 255, 0.95);
 }
