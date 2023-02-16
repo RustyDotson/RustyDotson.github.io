@@ -165,6 +165,7 @@ div.section {
 
 /*Following code is used for the toolbar interface at the top of each page.*/
 .icon-bar {
+  z-index: 1;
   width: 100%; /* Full-width */
   font-family: Font;
   background-color: rgb(25, 25, 25, 0.50); /* #555; /* Dark-grey background */
@@ -172,6 +173,7 @@ div.section {
 }
 
 .icon-bar a {
+	z-index = 100;
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
