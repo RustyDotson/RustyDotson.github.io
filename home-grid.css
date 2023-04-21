@@ -1,0 +1,26 @@
+.homeRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+/* Create two equal columns that sits next to each other */
+.homeColumn {
+  float: middle;
+  text-align: center; 
+  width: 11vw;
+  padding: 0 4px;
+}
+
+.homeColumn img {
+  margin: 8px;
+  width: 100%;
+  border: white solid;
+}
+
+.homeColumn img:hover {
+  box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.50), 0 6px 20px 0 rgba(255, 255, 255, 0.50);
+  animation-name:dynamicGlow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
