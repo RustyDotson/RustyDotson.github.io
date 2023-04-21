@@ -180,7 +180,7 @@ div.section {
   background-color: rgb(25, 25, 25, 0.50); /* #555; /* Dark-grey background */
   /*overflow: auto; /* Overflow due to float */
   
-  position: fixed;
+  position: top;
   left: 0;
   top: 0;
 }
@@ -193,7 +193,7 @@ div.section {
   padding: 1% 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: white; /* White text color */
-  font-size: 100%; /* Increased font size */
+  font-size: 75%; /* Increased font size */
   border: 3px dashed rgb(255, 255, 255, 0.0);
   
   
