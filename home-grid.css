@@ -7,7 +7,7 @@
 /* Create two equal columns that sits next to each other */
 .homeColumn {
   float: middle;
-  text-align: center; 
+  text-align: center;  
   width: 11vw;
   padding: 0 4px;
   
@@ -17,7 +17,6 @@
   margin: 8px;
   width: 100%;
   filter: opacity(90%) grayscale(75%) invert(85%) drop-shadow(0px 0px 1px gray);
-
 }
 
 .homeColumn img:hover {
