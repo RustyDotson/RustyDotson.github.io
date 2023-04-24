@@ -23,14 +23,14 @@
 .homeColumn img:hover {
   filter: opacity(90%) grayscale(75%) invert(85%) drop-shadow(0px 0px 1px gray);
   animation-name:homeImageHover;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 
 @keyframes homeImageHover {
 	0%   {filter: opacity(90%) grayscale(75%) invert(85%) drop-shadow(0px 0px 1px gray);
 	}
-	50%  {filter: opacity(100%) grayscale(0%) invert(0%) drop-shadow(2px 2px 10px gray);
+	50%  {filter: opacity(100%) grayscale(0%) invert(0%) drop-shadow(2px 2px 300px gray);
 	}
 	100% {filter: opacity(90%) grayscale(75%) invert(85%) drop-shadow(0px 0px 1px gray);
 	}

@@ -42,11 +42,11 @@ h1 {		     /* This styles the header at the top of the page */
 }
 
 h2 {		     /* This styles the headers within the page */
-	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	color:  #2b2b2b ;
+	color:  #2b2b2b;
+	font-size: 150%;
 }
 
 h2 span {
@@ -110,6 +110,7 @@ div.section {
 	padding: 10%;
 	vertical-align: center;
 	text-align: center;
+	font-size: 200%;
 }
 
 .outline{
@@ -144,6 +145,7 @@ div.section {
 .imageBackground{
 	height: 300px;
 	text-align: center;
+	font-size: 100% ;
 	background-color: #555;
 	background-image: url('logos/snowSmall.jpg');
 	background-size: 100%;
@@ -193,7 +195,7 @@ div.section {
   padding: 1% 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: white; /* White text color */
-  font-size: 75%; /* Increased font size */
+  font-size: 100%; /* Increased font size */
   border: 3px dashed rgb(255, 255, 255, 0.0);
   
   
@@ -276,8 +278,8 @@ div.section {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 5%;
-  background-color: white;
+  height: 8%;
+  background-color: rgb(200, 200, 200, .85);
   color: grey;
 }
 
