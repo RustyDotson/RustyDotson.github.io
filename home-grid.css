@@ -21,17 +21,15 @@
 }
 
 .homeColumn img:hover {
-  filter: opacity(90%) grayscale(75%) invert(85%) drop-shadow(0px 0px 1px gray);
+  filter: opacity(100%) grayscale(0%) invert(0%) drop-shadow(2px 2px 300px gray);
   animation-name:homeImageHover;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
 }
 
 @keyframes homeImageHover {
 	0%   {filter: opacity(90%) grayscale(75%) invert(85%) drop-shadow(0px 0px 1px gray);
 	}
-	50%  {filter: opacity(100%) grayscale(0%) invert(0%) drop-shadow(2px 2px 300px gray);
-	}
-	100% {filter: opacity(90%) grayscale(75%) invert(85%) drop-shadow(0px 0px 1px gray);
+	100%  {filter: opacity(100%) grayscale(0%) invert(0%) drop-shadow(2px 2px 300px gray);
 	}
 }
