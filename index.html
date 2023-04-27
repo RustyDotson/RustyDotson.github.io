@@ -24,7 +24,7 @@
 		<h2>
 			<div class="imageBackground">
 				<div class="icon-bar">
-				  <a class="active homeHover" href="#"><i class="fa fa-home"></i> Home</a>
+				  <a class="homeHover active" href="#"><i class="fa fa-home"></i> Home</a>
 				  <a class="githubHover" href="https://github.com/RustyDotson"><i class="fa fa-github"></i> Code</a>
 				  <a class="scHover" href="https://soundcloud.com/rustyrustyrusty"><i class="fa fa-soundcloud"></i> Music</a>
 				  <a class="artHover" href="art.html"><i class="fa fa-paint-brush"></i> Artwork</a>
@@ -42,17 +42,17 @@
 		<div class="homeRow">
 			<div class="homeColumn" style="padding: 0 0px;">
 				<p class="center">education/experience:</p>
-				<img src="logos/bereapng.png"/>
-				<img src="logos/jetpng.png"/>
-				<img src="logos/swccpng.png"/>
-				<img src="logos/triopng.png"/>
-				<img src="logos/kiispng.png"/>
-				<img src="logos/eptpng.png"/>
-				<p class="center">social:</p>
-				<img src="logos/linkedinpng.png"/>
-				<img src="logos/scpng.png"/>
-				<img src="logos/ytpng.png"/>
-				<img src="logos/steampng.png"/>
+				<img src="logos/bereapng.png" onclick="window.location.href='https://berea.edu/'"/>
+				<img src="logos/jetpng.png" onclick="window.location.href='https://jetprogramusa.org/'"/>
+				<img src="logos/swccpng.png" onclick="window.location.href='https://sw.edu/'"/>
+				<img src="logos/triopng.png" onclick="window.location.href='https://www2.ed.gov/programs/trioupbound/index.html'"/>
+				<img src="logos/kiispng.png" onclick="window.location.href='https://www.kiis.org/'"/>
+				<img src="logos/eptpng.png" onclick="window.location.href='https://epsilonpitau.org/'"/>
+				<p class="center">social media:</p>
+				<img src="logos/linkedinpng.png" onclick="window.location.href='https://www.linkedin.com/in/rusty-dotson-a8010715b/'"/>
+				<img src="logos/scpng.png" onclick="window.location.href='https://soundcloud.com/rustyrustyrusty'"/>
+				<img src="logos/ytpng.png" onclick="window.location.href='https://www.youtube.com/channel/UCJ8G-y6dq8ppVJ_oHuz-zNA'"/>
+				<img src="logos/steampng.png" onclick="window.location.href=''"/>
 			</div>
 			
 			
@@ -129,16 +129,16 @@
 		  
 			<div class="homeColumn">
 				<p class="center">programming:</p>
-				<img src="logos/python.png"/>
-				<img src="logos/mplpng.png"/>
-				<img src="logos/octotrans.png"/>
-				<img src="logos/scrumpng.png"/>
-				<img src="logos/cpppng.png"/>
-				<img src="logos/runestone.png"/>
-				<img src="logos/html-js-css.png"/>
-				<img src="logos/aapng.png"/>
-				<img src="logos/bp logo.png"/>
-				<img src="logos/uipath logo.png"/>
+				<img src="logos/python.png" onclick="window.location.href='https://www.python.org/'"/>
+				<img src="logos/mplpng.png" onclick="window.location.href='https://matplotlib.org/'"/>
+				<img src="logos/octotrans.png" onclick="window.location.href='https://github.com/RustyDotson'"/>
+				<img src="logos/scrumpng.png" onclick="window.location.href='https://learn.microsoft.com/en-us/devops/plan/what-is-scrum'"/>
+				<img src="logos/cpppng.png" onclick="window.location.href='https://cplusplus.com/'"/>
+				<img src="logos/runestone.png" onclick="window.location.href='https://runestone.academy/user/login?_next=/'"/>
+				<img src="logos/html-js-css.png" onclick="window.location.href=''"/>
+				<img src="logos/aapng.png" onclick="window.location.href='https://www.automationanywhere.com/'"/>
+				<img src="logos/bp logo.png" onclick="window.location.href='https://www.blueprism.com/'"/>
+				<img src="logos/uipath logo.png" onclick="window.location.href='https://www.uipath.com/'"/>
 			</div>
 		</div> 
 
@@ -205,7 +205,7 @@
 	</div>
 
 <script>
-	imgIndex = Math.floor(Math.random() * 20);
+	imgIndex = Math.floor(Math.random() * 12);
 	background = document.getElementsByClassName("imageBackground")[0];
 	background.style.backgroundImage = "url(logos/backgrounds/" + imgIndex + ".png)";
 </script>

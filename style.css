@@ -114,8 +114,8 @@ div.section {
 }
 
 .outline{
-	border: 2px solid black;
-	outline: white solid 10px;
+	border: 2px solid gray;
+	outline: gray solid 1px;
 	outline-width: 10%;
 	margin: 30px;
 	margin-left: 15%;
@@ -179,7 +179,7 @@ div.section {
   z-index: 1;
   width: 100%; /* Full-width */
   font-family: Font;
-  background-color: rgb(25, 25, 25, 0.50); /* #555; /* Dark-grey background */
+  background-color: rgb(25, 25, 25, 1); /* #555; /* Dark-grey background */
   /*overflow: auto; /* Overflow due to float */
   
   position: top;
@@ -188,7 +188,7 @@ div.section {
 }
 
 .icon-bar a {
-  z-index = 100;
+  z-index = 1;
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
@@ -197,20 +197,21 @@ div.section {
   color: white; /* White text color */
   font-size: 100%; /* Increased font size */
   border: 3px dashed rgb(255, 255, 255, 0.0);
+  background-color: rgb(25, 25, 25, .5);
   
   
 }
 
 .icon-bar a:hover {/* Add a hover color */
   color: rgb(0, 0, 0, 0);
-  opacity: .50;
+  opacity: 1;
   border: 3px solid white;
 }
 
 .active { 
 /* Add an active/current color */
   color: #7ec06f;
-  background-color: rgb(50, 50, 50, .50);
+  background-color: rgb(190, 200, 200, .75) !important;
 }
 
 .homeHover:hover {
@@ -236,8 +237,8 @@ div.section {
 .scHover:hover {
   background-image: url(logos/Record.png);
   background-repeat: no-repeat;
+  background-size: 75%;
   background-color: transparent;
-  background-size: 100%;
   background-position: center;
   animation-name: discBop;
   animation-duration: 5s;

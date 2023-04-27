@@ -21,6 +21,7 @@
 
 .homeColumn img:hover {
   filter: opacity(100%) grayscale(0%) invert(0%) drop-shadow(2px 2px 300px gray);
+  cursor: pointer;
   animation-name:homeImageHover;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
