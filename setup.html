@@ -1,66 +1,255 @@
 <!DOCTYPE html>
 <html>
 
+
+<style type="text/css" src="//url.to/script.js">
+	
+	.active {
+		background-color: #69CBED;
+	}
+</style>
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div class="icon-bar">
-  <a class="active" href="index.html"><i class="fa fa-home"></i></a>
-  <a href="https://github.com/RustyDotson"><i class="fa fa-github"></i></a>
-  <a href="https://soundcloud.com/rustyraydot"><i class="fa fa-soundcloud"></i></a>
-  <a href="#"><i class="fa fa-paint-brush"></i></a>
-  <a href="#"><i class="fa fa-gamepad"></i></a>
-</div>
-
-
+<link rel="stylesheet" href="sidenav.css">
+<link rel="stylesheet" href="style.css">
 
 <head>
         <title>Rusty Dotson</title>
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-	<script src="poem.js"></script>
 </head>
 
+
+<body>
+	<h2>
+		<div class="imageBackground">
+			<div class="icon-bar">
+			  <a href="index.html"><i class="fa fa-home"></i> Home</a>
+			  <a class="githubHover" href="https://github.com/RustyDotson"><i class="fa fa-github"></i> Github</a>
+			  <a class="scHover" href="#"><i class="fa fa-soundcloud"></i> Music</a>
+			  <a class="artHover" href="art.html"><i class="fa fa-paint-brush"></i> Artwork</a>
+			  <a class="active setupHover" href="#"><i class="fa fa-file"></i> Equipment</a>
+			</div>
+			
+			<div class="box"><font size="15"><span size="15">&#160;&#160;&#160;Equipment&#160;&#160;&#160;</span></font></div>
+		</div>
+	</h2>
+
+
+	<link rel="stylesheet" type="text/css" href="image-table.css" media="screen" />
+	
+	
+	<div class="row">
+		  <div class="column">
+		    <a href="hardware/1070ti.png" download> <img src="hardware/1070ti.png"> </a>
+			<a href="hardware/at2020.png" download> <img src="hardware/at2020.png"> </a>
+			<a href="hardware/r72700x.webp" download> <img src="hardware/r72700x.webp"> </a>
+			<a href="hardware/tribute.png" download> <img src="hardware/tribute.png"> </a>
+		  </div>
+		  <div class="column">
+		    <a href="hardware/g304.png" download> <img src="hardware/g304.png"> </a>
+			<a href="hardware/ec2.png" download> <img src="hardware/ec2.png"> </a>
+			<a href="hardware/kone.webp" download> <img src="hardware/kone.webp"> </a>
+		  </div>
+		  <div class="column">
+		    <a href="hardware/gsr.webp" download> <img src="hardware/gsr.webp"> </a>
+			<a href="hardware/gigantusv2.png" download> <img src="hardware/gigantusv2.png"> </a>
+			<a href="hardware/goliathuscon.png" download> <img src="hardware/goliathuscon.png"> </a>
+			<a href="hardware/modelo.png" download> <img src="hardware/modelo.png"> </a>
+		  </div>
+		  <div class="column">
+		    <a href="hardware/fpsalloy.png" download> <img src="hardware/fpsalloy.png"> </a>
+			<a href="hardware/gpro.png" download> <img src="hardware/gpro.png"> </a>
+			<a href="hardware/vipermini.png" download> <img src="hardware/vipermini.png"> </a>
+			<a href="hardware/deathadder.png" download> <img src="hardware/deathadder.png"> </a>
+		  </div>
+	 </div> 
+
+</body>
+
+<!-- OLD ART PARGE LAYOUT!!!!!
 <body>
 
-   <a href="Dotson_resume.pdf">My Resume</a>
 
 
-                <h2>Ranks:</h2>
-                <ol>
-				  <li>Currently in top 3% of players in CoD Modern Warfare 2019</li>
-                  <li>CoD Black Ops 2: Masters League Finalist Summer 2013 (top 2% of players) </li>
-                  <li>Counter Strike Global Offensive: Dual Master Guardian</li>
-                </ol>
 
-				<h2>Setup:</h2>
-				<ol>
-				  <a href="https://www.pcgamingrace.com/products/glorious-model-o-black">
-					<img src="hardware/mouse.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.pcgamingrace.com/products/glorious-extended-gaming-mouse-pad">
-				  <img src="hardware/mp.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.msi.com/Graphics-card/gtx-950-2gd5-oc.html">
-				  <img src="hardware/gpu.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.amd.com/en/products/cpu/amd-ryzen-7-2700x">
-				  <img src="hardware/cpu.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.amazon.com/Acer-GN246HL-Bbid-Widescreen-Response/dp/B00KO4518I">
-				  <img src="hardware/mon.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.amazon.com/HyperX-Cloud-Gaming-Headset-KHX-HSCP-GM/dp/B00SAYCVTQ">
-				  <img src="hardware/hs.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.amazon.com/ROG-Strix-B450-F-Gaming-Motherboard/dp/B07FKTZC4M/ref=sxin_0_af-pna-1_f14d6e0e3e49ec5ed2f64386f15a23e1e1b66b82?crid=33QZ5UQFXRNZ9&keywords=msi+motherboard&pd_rd_i=B07FKTZC4M&pd_rd_r=91898c04-9dbb-470f-9447-94134ea47579&pd_rd_w=VJpZ3&pd_rd_wg=yuUMo&pf_rd_p=3892bc23-5fa8-4a18-8855-22c23bd2e202&pf_rd_r=BYF8A95PA6B2BSZGMQ07&qid=1573614840&s=electronics&sprefix=msi+mo%2Celectronics%2C177">
-					<img src="hardware/mobo.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.amazon.com/dp/B07C3T1V95/ref=twister_B07WWZKL8W?th=1">
-				  <img src="hardware/case.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-				  <a href="https://www.amazon.com/HyperX-Alloy-FPS-Pro-Ultra-Compact/dp/B074F5L8GQ/ref=sr_1_2?keywords=alloy+fps&qid=1576260918&smid=ATVPDKIKX0DER&sr=8-2">
-				  <img src="hardware/kb.jpg" alt="Mouse" height="100" width="150">
-				  </a>
-                </ol>
+
+
+	
+  <div class="box">
+    <!-- Slideshow container 
+  <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text 
+  <div class="mySlides fade">
+    <div class="numbertext">1</div>
+    <img src="artwork/0_enhanced.jpg" style="width:50%">
+    <div class="text">KY, Berea College, Danforth Technology Building, Top Floor (Fall 2018)</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2</div>
+    <img src="artwork/01_enhanced.png" style="width:25%">
+    <div class="text">Solid Snake, Metal Gear Solid 2 (Winter 2021)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3</div>
+    <img src="artwork/1_enhanced.jpg" style="width:50%">
+    <div class="text">Unknown 1 (Fall 2018)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4</div>
+    <img src="artwork/2_enhanced.jpg" style="width:50%">
+    <div class="text">Unknown 2 (Fall 2018)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5</div>
+    <img src="artwork/3_enhanced.jpg" style="width:50%">
+    <div class="text">Vitruvian Man (Fall 2018)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6</div>
+    <img src="artwork/4_enhanced.jpg" style="width:50%">
+    <div class="text">Unknown 3 (Fall 2018)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7</div>
+    <img src="artwork/5_enhanced.jpg" style="width:50%">
+    <div class="text">Still Life</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8</div>
+    <img src="artwork/6_enhanced.jpg" style="width:50%">
+    <div class="text">Nike Without Wings (Fall 2018)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9</div>
+    <img src="artwork/7_enhanced.jpg" style="width:50%">
+    <div class="text">Still Life</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10</div>
+    <img src="artwork/8_enhanced.jpg" style="width:50%">
+    <div class="text">Still Life</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11</div>
+    <img src="artwork/9_enhanced.jpg" style="width:50%">
+    <div class="text">The Creation of Adam, Unknown (Fall 2018)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">12</div>
+    <img src="artwork/10_enhanced.jpg" style="width:50%">
+    <div class="text" id="longtext" font-size=10px>Gustave Doré (1832–1883), Charity, Hope and Faith, 
+	Purgatorio Canto 29 verses 122-126 (c 1857), engraving, dimensions and 
+	location not known. (Fall 2018)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">13</div>
+    <img src="artwork/11_enhanced.jpg" style="width:50%">
+    <div class="text">Shapes</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">14</div>
+    <img src="artwork/12_enhanced.jpg" style="width:50%">
+    <div class="text">Still Life</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">15</div>
+    <img src="artwork/13_enhanced.jpg" style="width:50%">
+    <div class="text">Still Life</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">16</div>
+    <img src="artwork/chief_enhanced.jpg" style="width:70%">
+    <div class="text">Master Chief, Halo 3 (Winter 2020)</div>
+  </div>
+
+  <!-- Next and previous buttons 
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles 
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
+  <span class="dot" onclick="currentSlide(15)"></span>
+  <span class="dot" onclick="currentSlide(16)"></span>
+  </div>
+ 
+</div>
 </body>
+
+
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" dotActive", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " dotActive";
+  }
+</script>
+
+-->
+<div class="footer">
+  <td valign="top">Site is still being developed.</td>
+</div>
+
+<script>
+	imgIndex = Math.floor(Math.random() * 11);
+	background = document.getElementsByClassName("imageBackground")[0];
+	background.style.backgroundImage = "url(logos/backgrounds/" + imgIndex + ".png)";
+</script>
 
 </html>
