@@ -274,6 +274,24 @@ div.section {
   animation-iteration-count: infinite;
 }
 
+.equipHover {
+  background-image: url(hardware/g304.png);
+  background-repeat: no-repeat;
+  background-size: 0%;
+  background-position: center;
+}
+
+.equipHover:hover {
+  background-image: url(hardware/g304.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-color: transparent;
+  background-position: center;
+  animation-name: discBop;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
 .footer{
   position: fixed;
   left: 0;
@@ -434,7 +452,7 @@ div.section {
 
 @font-face {
     font-family: Font;
-    src: url('AOTFShinGoProLight.otf') format('truetype');
+    src: url('fonts/cour.ttf') format('truetype');
 }
 
 /*end of slideshow section.*/
