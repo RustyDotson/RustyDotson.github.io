@@ -24,7 +24,6 @@ html, body {
 
 body{
 	font-family: Font;
-	
 	text-align: center; /* Alignment of the text */
 	color:  #b6b6b6 ; /* Main text color */
 	background: #2c2c2c  ; /* Main text background color */
@@ -33,7 +32,7 @@ body{
 
 
 p{
-	font-size: 5vh;
+	font-size: 5vw;
 }
 
 
@@ -117,12 +116,12 @@ div.section {
 	border: 0.2vw solid gray;
 	outline: gray solid 0.1vw;
 	outline-width: 10%;
-	margin: 10vh;
+	margin: 4vw;
 	margin-left: 15%;
 	margin-right: 15%;
-	padding: 3vh;
+	padding: 1vw;
 	text-align: center;
-	font-size: 8vh;
+	font-size: 4vw;
 }
 
 
@@ -148,7 +147,7 @@ div.section {
 
 
 .imageBackground{
-	height: 50vh;
+	height: 25vw;
 	text-align: center;
 	font-size: 2vw ;
 	background-color: #555;
@@ -157,7 +156,7 @@ div.section {
 	background-position: 50% 50%;
 	opacity: 1;
 	min-height: 1vh;
-	max-height: 100vh;
+	max-height: 50vh;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	}
