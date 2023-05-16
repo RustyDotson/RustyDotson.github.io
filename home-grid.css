@@ -27,8 +27,8 @@
   animation-iteration-count: 1;
 }
 
-.homeColumn p {
-	font-size: 3vh;
+.homeColumn p{
+	font-size: 100%;
 }
 
 @keyframes homeImageHover {

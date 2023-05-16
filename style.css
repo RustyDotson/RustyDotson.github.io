@@ -27,12 +27,12 @@ body{
 	text-align: center; /* Alignment of the text */
 	color:  #b6b6b6 ; /* Main text color */
 	background: #2c2c2c  ; /* Main text background color */
-	padding-bottom: 4vw; /* You can set padding or margin for one side of an element at a time */
+	padding-bottom: 5%; /* You can set padding or margin for one side of an element at a time */
 }
 
 
 p{
-	font-size: 5vw;
+	font-size: 5%;
 }
 
 
@@ -103,30 +103,30 @@ div.section {
 
 .box {
 	font-family: Font;
-	width: 100vw;
-	border: 100vw;
-	padding: 8vw;
+	width: 100%;
+	border: 100%;
+	padding: 8%;
 	vertical-align: center;
 	text-align: center;
-	font-size: 4vw;
+	font-size: 200%;
 }
 
 
 .outline{
-	border: 0.2vw solid gray;
-	outline: gray solid 0.1vw;
+	border: 100% solid gray;
+	outline: gray solid 0px;
 	outline-width: 10%;
-	margin: 4vw;
-	margin-left: 15%;
-	margin-right: 15%;
-	padding: 1vw;
+	margin: 5%;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding: 0%;
 	text-align: center;
-	font-size: 4vw;
+	font-size: 400%;
 }
 
 
 .paraOutline{
-	font-size: 1.5vw;
+	font-size: 125%;
 	outline-width: 10%;
 	margin: 3%;
 	margin-left: 20%;
@@ -147,16 +147,16 @@ div.section {
 
 
 .imageBackground{
-	height: 25vw;
+	height: 50%;
 	text-align: center;
-	font-size: 2vw ;
+	font-size: 100% ;
 	background-color: #555;
 	background-image: none;
-	background-size: 441vh;
+	background-size: 100%;
 	background-position: 50% 50%;
 	opacity: 1;
-	min-height: 1vh;
-	max-height: 50vh;
+	min-height: 20%;
+	max-height: 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	}
