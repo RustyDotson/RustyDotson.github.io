@@ -9,7 +9,7 @@
   float: middle;
   text-align: center;  
   width: 11vw;
-  padding: 0 4px;
+  padding: 0 0px;
   
 }
 
@@ -28,7 +28,7 @@
 }
 
 .homeColumn p{
-	font-size: 100%;
+	font-size: 120%;
 }
 
 @keyframes homeImageHover {
