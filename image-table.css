@@ -4,6 +4,7 @@
   padding: 0 10px;
 }
 
+
 /* Create two equal columns that sits next to each other */
 .column {
   float: middle;
@@ -12,16 +13,19 @@
   padding: 0 10px;
 }
 
+
 .column img {
   margin: 8px;
   width: 100%;
   border: white solid;
 }
 
+
 .column p{
 	font-size: 100%;
 	padding-bottom: 10%;
 }
+
 
 .column img:hover {
   box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.50), 0 6px 20px 0 rgba(255, 255, 255, 0.50);

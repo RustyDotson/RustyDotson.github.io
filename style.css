@@ -1,14 +1,3 @@
-/*
-
-	Hi!  Welcome to style.css.  CSS stands for cascading style sheet - we recommend http://www.w3schools.com/css/ for the nitty gritty of CSS syntax.  But basically, what you should know is:
-
-	 - Which part of a web page the css is referring to is specified by either ids or classes in the .html file.  For instance, a div with id="signup" will be styled by the element #signup below.  # means ID, and . means class in .css files.
-
-	 - Elements inside of other elements inherit their style, unless the .css file specifies otherwise.  For instance, if you have the html: <div id="outside">Hello <div id="inside">world!</div></div>, and 'Hello' is specified in css (#outside) as being in bold font, 'world!' will also be bold unless you add a #inside element to your css.
-
- 	-  Fun style elements to play with that won't mess with the structure of the page include color, font, and background.  When playing with colors, you can consult http://hexcolor.com/.  Colors can be specified by name ("black", "white") or hexadecimal notation (#000000, #FFFFFF).
-
-*/
 
 
 /* Imports the font that is used on this page. */
@@ -42,13 +31,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 }
 
 
-h1 {		     /* This styles the header at the top of the page */
-	text-align: center;
-	color:  #969696 ;
-}
-
-
-h2 {		     /* This styles the headers within the page */
+h1 {		     /* This styles the headers within the page */
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -57,47 +40,10 @@ h2 {		     /* This styles the headers within the page */
 }
 
 
-h2 span {
+h1 span {
 	background-color: rgb(100, 100, 100, .5);
 	width: 100%;
 	color: white;
-}
-
-
-/* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
-div.section {
-	padding: 1em;
-	margin-bottom: 0;
-	text-align: justify;
-
-}
-
-
-/* If we want the divs with ids plan and more to look the same, we can put them together */
-#plan, #more {
-	background: #f2f2f2; /* Change the color to looks like Berea Background */
-	color: black;
-	font: 'Source Sans Pro',Arial, Sans-Serif;
-	background-image: none;  /* replace none with url('image-url') to set a background image  */
-}
-
-
-/* You can alter the links within a div with the following syntax */
-#plan a {
-	color: #0000cc;
-}
-
-
-/* This alters the appearance of the div with id="longtext."
-   Used in the artwork description section. */
-#longtext {
-	font-size: 15px; 
-}
-
-
-/* This alters the appearance of the box that covers section titles throughout the webpage.*/
-.center {
-	text-align: center;
 }
 
 
@@ -162,27 +108,17 @@ div.section {
 	}
 
 
-/* This alters the appearance of the div with id="minileft", the div containing the images */
-.minileft {
-	float: left;
-	height: 100%;
-	margin-bottom:1.5em;
-	margin-right: 1em;
-}
-
-
 /*Following code is used for the toolbar interface at the top of each page.*/
 .icon-bar {
   z-index: 1;
   width: 100%; /* Full-width */
   font-family: Font;
   background-color: rgb(25, 25, 25, 1); /* #555; /* Dark-grey background */
-  /*overflow: auto; /* Overflow due to float */
-  
   position: top;
   left: 0;
   top: 0;
 }
+
 
 .icon-bar a {
   z-index = 1;
@@ -195,15 +131,15 @@ div.section {
   font-size: 100%; /* Increased font size */
   border: 3px dashed rgb(255, 255, 255, 0.0);
   background-color: rgb(25, 25, 25, .5);
-  
-  
 }
 
-.icon-bar a:hover {/* Add a hover color */
+
+.icon-bar a:hover {
   color: rgb(0, 0, 0, 0);
   opacity: 1;
   border: 3px solid white;
 }
+
 
 .active { 
 /* Add an active/current color */
@@ -211,9 +147,11 @@ div.section {
   background-color: rgb(190, 200, 200, .75) !important;
 }
 
+
 .homeHover:hover {
   background-image: url(artwork/10_enhanced.jpg);
 }
+
 
 .scHover {
   background-image: url(logos/Record.png);
@@ -223,6 +161,7 @@ div.section {
   background-position: center;
 }
 
+
 .githubHover {
   background-image: url(logos/octotrans.png);
   background-repeat: no-repeat;
@@ -230,6 +169,23 @@ div.section {
   background-size: 0%;
   background-position: center;
 }
+
+
+.artHover {
+  background-image: url(logos/01_enhanced.png);
+  background-repeat: no-repeat;
+  background-size: 0%;
+  background-position: center;
+}
+
+
+.equipHover {
+  background-image: url(hardware/g304.png);
+  background-repeat: no-repeat;
+  background-size: 0%;
+  background-position: center;
+}
+
 
 .scHover:hover {
   background-image: url(logos/Record.png);
@@ -242,6 +198,7 @@ div.section {
   animation-iteration-count: infinite;
 }
 
+
 .githubHover:hover {
   background-image: url(logos/octotrans.png);
   background-repeat: no-repeat;
@@ -253,12 +210,6 @@ div.section {
   animation-iteration-count: infinite;
 }
 
-.artHover {
-  background-image: url(logos/01_enhanced.png);
-  background-repeat: no-repeat;
-  background-size: 0%;
-  background-position: center;
-}
 
 .artHover:hover {
   background-image: url(artwork/01_enhanced.png);
@@ -271,12 +222,6 @@ div.section {
   animation-iteration-count: infinite;
 }
 
-.equipHover {
-  background-image: url(hardware/g304.png);
-  background-repeat: no-repeat;
-  background-size: 0%;
-  background-position: center;
-}
 
 .equipHover:hover {
   background-image: url(hardware/g304.png);
@@ -288,6 +233,7 @@ div.section {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
+
 
 .footer{
   position: fixed;
@@ -307,6 +253,7 @@ div.section {
 
 * {box-sizing:border-box}
 
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -314,10 +261,12 @@ div.section {
   margin: auto;
 }
 
+
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -335,21 +284,25 @@ div.section {
   user-select: none;
 }
 
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+
 .prev{
 	left: 0;
 	border-radius: 3px 0 0 3px;
 }
 
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
 
 /* Caption text */
 .text {
@@ -362,6 +315,7 @@ div.section {
   text-align: center;
 }
 
+
 /* Number text (1/3 etc) */
 .numbertext {
   color: white;
@@ -370,6 +324,7 @@ div.section {
   position: absolute;
   top: 0;
 }
+
 
 /* The dots/bullets/indicators */
 .dot {
@@ -383,13 +338,16 @@ div.section {
   transition: background-color 0.6s ease;
 }
 
+
 .dotActive{
   background-color: white;
 }
 
+
 .dot:hover{
   background-color: rgb(150, 150, 200, .99);
 }
+
 
 /* Fading animation */
 .fade {
@@ -399,11 +357,13 @@ div.section {
   animation-duration: 1.5s;
 }
 
+
 @keyframes shiftDown {
   0% {background-position: 50% 15%;}
   50% {background-position: 50% 100%;}
   100% {background-position: 50% 15%;}
 }
+
 
 @keyframes catBop {
   0% {background-position: 50% 19%;}
@@ -411,21 +371,25 @@ div.section {
   100% {background-position: 50% 19%;}
 }
 
+
 @keyframes discBop {
   0% {background-position: 50% 45%;}
   50% {background-position: 50% 55%;}
   100% {background-position: 50% 45%;}
 }
 
+
 @-webkit-keyframes fade {
   from {opacity: .0}
   to {opacity: 1}
 }
 
+
 @keyframes fade {
   from {opacity: .0}
   to {opacity: 1}
 }
+
 
 @keyframes gradient-bg {
 	0% {
@@ -438,6 +402,7 @@ div.section {
 		background-position: 0% 50%;
 	}
 }
+
 
 @media only screen and (max-device-width: 828px) {
   .imageBackground {
