@@ -14,16 +14,10 @@ html, body {
 
 
 body{
-	font-family: 	Font;
-	text-align: 	center; 	/* Alignment of the text */
-	color:  		#b6b6b6; 	/* Main text color */
-	background: 	#2c2c2c; 	/* Main text background color */
+	font-family: 	Font; 
+	color:  		#303030; 	/* Main text color */
+	background: 	#e9e9e9; 	/* Main text background color */
 	padding-bottom: 5%; 		/* You can set padding or margin for one side of an element at a time */
-}
-
-
-p{
-	font-size: 100%;
 }
 
 
@@ -48,6 +42,18 @@ h1 span {
 	color:				white;
 }
 
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* centers the whole block */
+    gap: 10%;
+    max-width: 50%;         /* keeps it nicely centered on large screens */
+    margin: 0 auto;
+}
+
+.intro-img {
+    width: 33%;             /* better than % for layout control */
+}
 
 .box {
 	font-family: 	Font;
@@ -56,7 +62,7 @@ h1 span {
 	padding: 		8%;
 	vertical-align: center;
 	text-align: 	center;
-	font-size: 		200%;
+	font-size: 		250%;
 }
 
 
@@ -75,11 +81,9 @@ h1 span {
 
 .paraOutline{
 	font-size: 		125%;
+  width: 55%;
 	outline-width: 	10%;
 	margin: 		3%;
-	margin-left: 	20%;
-	margin-right:	20%;
-	padding: 		10px;
 	text-align: 	left;
 }
 
@@ -87,8 +91,6 @@ h1 span {
 .paraHeader{
 	outline-width: 	10%;
 	margin: 		3%;
-	margin-left: 	20%;
-	margin-right: 	20%;
 	padding: 		10px;
 	text-align: 	center;
 }
@@ -131,7 +133,7 @@ h1 span {
   z-index = 			1;
   float: 				left; /* Float links side by side */
   text-align: 			center; /* Center-align text */
-  width: 				20%; /* Equal width (5 icons with 20% width each = 100%) */
+  width: 				25%; /* Equal width (5 icons with 20% width each = 100%) */
   padding: 				1% 0; /* Some top and bottom padding */
   transition: 			all 0.3s ease; /* Add transition for hover effects */
   color: 				white; /* White text color */
