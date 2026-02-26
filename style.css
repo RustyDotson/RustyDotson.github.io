@@ -59,6 +59,16 @@ h1 span {
 	font-family: 	Font;
 	width: 			100%;
 	border: 		100%;
+	padding: 		22%;
+	vertical-align: center;
+	text-align: 	center;
+	font-size: 		250%;
+}
+
+.homeTitle {
+	font-family: 	Font;
+	width: 			100%;
+	border: 		100%;
 	padding: 		8%;
 	vertical-align: center;
 	text-align: 	center;
@@ -97,7 +107,7 @@ h1 span {
 
 
 .imageBackground{
-	height: 				50%;
+	height: 				100%;
 	text-align: 			center;
 	font-size: 				100% ;
 	background-color: 		#555;
@@ -105,8 +115,8 @@ h1 span {
 	background-size: 		100%;
 	background-position: 	50% 50%;
 	opacity: 				1;
-	min-height: 			20%;
-	max-height: 			50%;
+	min-height: 			100%;
+	max-height: 			100%;
 	background-attachment: 	fixed;
 	background-repeat: 		no-repeat;
 	}
